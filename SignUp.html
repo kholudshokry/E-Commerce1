@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" typ="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- external CSS-->
+
+    <link rel="stylesheet" type="text/css" href="css/SignUp.css" />
+
+</head>
+
+<body style="background: url(imges/bb.jpg); background-size: cover;">
+    <!---start navbar section-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light changeBg">
+            <div class="container-fluid">
+             <img id="editLogo" src="imges/logo/rokya's first stolen logo.png">             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                 <li class="nav-item active">
+                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                 </li>
+                 
+             
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Categories
+                   </a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="electronics.html">Electronics</a>
+                     <a class="dropdown-item" href="#">Books</a>
+                     <a class="dropdown-item" href="BeautyPage.html">Beauty</a>
+                     <a class="dropdown-item" href="#">Kitchen</a>
+ 
+                   </div>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="#aboutUs">About Us</a>
+                   </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="#contactUs">Contact Us</a>
+                   </li>
+                   <li class="nav-item">
+                     <li class="nav-item">
+                       <a class="nav-link" href="profileuser/html/userProfile.html">profile</a>
+                     </li>
+                     <a class="nav-link" href="LogIn.html">Sign in</a>
+                   </li>
+                
+               </ul>
+             
+             </div>
+            </div>
+           </nav> -->
+    <!--end navbar section-->
+    <section class="signup">
+        <form id="form">
+            <h2 style="color:white">Sign Up</h2>
+            <input id="fname" type="text" name="userFirstNAme" placeholder="ex:mohamed" required><br><br>
+            <input id="lname" type="text" name="userLAstNAme" placeholder="ex:ahmed" required /><br><br>
+            <input id="password" type="password" name="password" placeholder="ex:Mohamed@1" pattern="^(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" title="Must contain at least one number, and at least 8 or more characters" required/><br><br>
+            <input id="confirm_password" type="password" name=" password " placeholder="should match " pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required/> <span id='message'></span><br><br>
+            <input id="email" type="email " name="email " title="Must contain at least @ " placeholder="mohamed@m" required/><br><br>
+            <button id="signup-btn" type="submit">Sign Up</button> Already have an account?<a id="login-btn " href="login.html " style="text-decoration: none;font-family: 'play',sans-serif ; color: yellow; ">&nbsp;Log In</a>
+        </form>
+
+    </section>
+
+    <script src="js/signUp.js"></script>
+</body>
+
+</html>

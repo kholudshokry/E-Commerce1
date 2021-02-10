@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}header{
+    background-color: black;
+    padding: 10px 0;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.header-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content .brand{
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul#user_info{
+    display: none;
+    align-items: center;
+}
+nav ul#user_info li{position: relative;}
+nav ul#user_info li i{
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+nav ul#user_info .carts-products{
+    position: absolute;
+    width: 200px;
+    transform: translate(-42%,0);
+    background: #eaeaea;
+    top:46px;
+    padding: 10px;
+    border: 1px solid green;
+    display: none;
+}
+nav ul#user_info .carts-products a{
+    background: darkgreen;
+    display: block;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+}
+nav ul#user_info li .badge{
+    width: 20px;
+    height: 20px;
+    background: crimson;
+    color: #fff;
+    text-align:center;
+    display: block;
+    position:absolute;
+    border-radius: 50%;
+    top:-9px;
+    right:-10px;
+    font-size: 15px;
+    line-height: 20px;
+    display: none;
+}
+nav li a{
+    display: block;
+    color: #fff;
+    min-width: 50px;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+.products{
+    width:60%;
+    margin: 10px 0;
+}
+.product-item{
+    display: flex;
+    width: 100%;
+    border:1px solid #ddd;
+    margin-bottom: 15px;
+}
+.product-item-img{
+    width: 25%;
+    margin-right: 10px;
+}
+.product-item-actions {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+
+}
+.product-item .add-to-cart{
+    display: block;
+    margin-left: auto;
+    background-color:darkgreen ;
+    color:#fff;
+    border: 0;
+    padding: 10px 20px;
+    font-size:14px ;
+    cursor: pointer;
+}
+.product-item-actions .favorite{
+    cursor: pointer;
+    display: block;
+    width:20px;
+    margin-left: auto;
+}

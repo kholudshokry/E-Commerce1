@@ -1,0 +1,90 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #FFF;
+    background-size: cover;
+}
+/***************** start nav section*******************/
+.changeBg
+{
+    background:linear-gradient(90deg ,#B6C2C4, #6E7E8A ,#9AA4AE);
+}
+#editLogo
+{
+  width: 60px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.signin {
+    background: rgba(44, 62, 88, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 80px;
+    height: 400px;
+    margin-left: auto;
+}
+
+form {
+    width: 240px;
+    text-align: center;
+}
+
+input {
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'play' sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #FFF;
+}
+
+#login-btn {
+    border: none;
+    width: 190px;
+    background: #FFF;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#login-btn:hover {
+    color: #FFF;
+    background-color: #000;
+}
+
+section h2 {
+    color: #fff;
+}
+
+ section a {
+    color: yellow;
+    text-decoration: blink;
+}
+
+ section a:hover {
+    color: skyblue;
+}
+
+ section .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+::placeholder {
+    color: aliceblue;
+    opacity: 1;
+}

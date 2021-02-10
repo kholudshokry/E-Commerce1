@@ -1,0 +1,79 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #FFF;
+    background-size: cover;
+}
+
+.signup {
+    background: rgba(44, 62, 88, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 90px;
+    height: 430px;
+    margin-left: auto;
+    
+}
+
+form {
+    width: 240px;
+    text-align: center;
+}
+
+input {
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'play' sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #FFF;
+}
+
+#signup-btn {
+    margin: auto;
+    margin-bottom: 5px;
+    display: block;
+    border: none;
+    width: 120px;
+    background: #FFF;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 3px 2px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#signup-btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+h2 {
+    color: #000;
+}
+
+::placeholder {
+    color: aliceblue;
+    opacity: 1;
+}
+/***************** start nav section*******************/
+.changeBg
+{
+     background:linear-gradient(90deg ,#B6C2C4, #6E7E8A ,#9AA4AE); 
+}
+#editLogo
+{
+  width: 60px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

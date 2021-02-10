@@ -1,0 +1,96 @@
+/* .small-container{
+    width: 70%;
+    margin: auto;
+}.cart-page{
+    margin:80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background:#ff523b ;
+    font-weight: normal;
+}
+td{
+   padding:  10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content:flex-end;
+}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+/* .card-header{
+    background-color:#ff523b ; */
+/* } */
+ /* .btn-primary{ */
+   /* background-color:black;
+} */
+/* .card-footer {
+    background-color:#ff523b ;
+} */ 
+#btn{
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button {
+     
+    display: none;
+    margin-left: auto;
+    background-color:darkgreen ;
+    color:#fff;
+    border: 0;
+    padding: 10px 20px;
+    font-size:14px ;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+.padding {
+    padding: 5rem !important
+}
+
+.form-control:focus {
+    box-shadow: 10px 0px 0px 0px #ffffff !important;
+    border-color: #4ca746
+}
